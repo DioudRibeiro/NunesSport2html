@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nunes Sports - Gerenciamento de Usuários</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://assets.onecompiler.app/42qqyjfqc/42qqyzjrd/465811cc88e057c.jpg');
+  
+            color: purple;
+            padding: 50px;
+        }
+        h1 {
+            color: Black;
+            text-shadow: 2px 2px red;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+            background-color:white;
+    
+        }
+        th {
+            background-color: purple;
+            color: white;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: purple;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: darkred;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .back-link a {
+            text-decoration: none;
+            color: black;
+            text-shadow:2px 2px red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerenciar Usuários</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nome do Usuário</th>
+            <th>Email</th>
+            <th>contato</th>
+            <th>endereço</th>
+            <th>Ações</th>
+        </tr>
+        <!-- Exemplo de usuário listado -->
+        <tr>
+            <td>1</td>
+            <td>Raphael Ribeiro</td>
+            <td>raphaelestagiario12@outlook.com</td>
+            <td>13981381812</td>
+            <td>Avenida Guaruja 732</td>
+            <td>
+                 <button><b>Atualizar</b></button>
+                <button><b>Excluir</b></button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Serafim Araújo</td>
+            <td>Serafim29@outlook.com</td>
+               <td>13981313372</td>
+            <td>Rua Pitangueiras 292</td>
+            <td>
+                   <button><b>Atualizar</b></button>
+                <button><b>Excluir</b></button>
+            </td>
+        </tr>
+    </table>
+    <button><b>Adicionar Novo Usuário</b></button>
+
+    <div class="back-link">
+        <a href="index.html">Voltar ao Menu Principal</a>
+    </div>
+</body>
+</html>

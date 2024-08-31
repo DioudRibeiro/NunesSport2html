@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nunes Sports - Gerenciamento de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image:url('https://assets.onecompiler.app/42qqyjfqc/42qqyzjrd/images.jpg');
+            color: black;
+            padding: 50px;
+            background-size:cover;
+            background-position: center center;
+        }
+        h1 {
+            color:black;
+            text-align: center;
+            text-shadow: 2px 2px red;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+            background-color:white;
+            
+           
+        }
+        th {
+            background-color: purple;
+            color: white
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: darkred;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .back-link a {
+            text-decoration: none;
+            color: black;
+            text-shadow:2px 2px red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+ 
+    <h1>Gerenciar Produtos</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nome do Produto</th>
+            <th>Código do Produto</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Ações</th>
+        </tr>
+        <!-- Exemplo de produto listado -->
+        <tr>
+            <td>1</td>
+            <td>Bola de futebol </td>
+            <td>1213</td>
+            <td>Bola de futebol Jabulani </td>
+            <td>R$ 99,99</td>
+            <td>
+                <button><b>Atualizar</b></button>
+                <button><b>Excluir</b></button>
+            </td>
+        </tr>
+          <tr>
+            <td>2</td>
+            <td>Bola de Basquete</td>
+            <td>1214</td>
+            <td> Bola de Basquete autografada pelo Michael Jordan</td>
+            <td>R$ 98,99</td>
+            <td>
+             <button><b>Atualizar</b></button>
+                <button><b>Excluir</b></button>
+            </td>
+        </tr>
+    </table>
+    <button><b>Adicionar um Novo produto</b></button>
+
+    <div class="back-link">
+        <a href="index.html">Voltar ao Menu Principal</a>
+    </div>
+</body>
+</html>
